@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Info SKU Desigual-Difermoda</title>
+</head>
+<body>
+    <div class="container">
+        <div class="columna-centro">
+            <div class="logo">
+                <img src="Img/LogoDesigual.svg" alt="">
+            </div>
+            <div class="form">
+                <label for="sku">Sku:</label>
+                <textarea name="sku" autofocus="on" id="sku" placeholder="Ingresa los Skus" rows="10" cols="25"></textarea>
+                <button type="button" id="btn-buscar">Buscar</button>
+            </div>
+            <div class="card">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sku</th>
+                            <th>Categoria</th>
+                            <th>Temporada</th>
+                            <th>Genero</th>
+                            <th>Tallas / EAN</th>
+                            <th>Imagen</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tabla">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
