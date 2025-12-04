@@ -13,6 +13,17 @@ body {
     height: 100%;
 }
 
+.radios{
+    display: flex;
+    padding: .2rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.radios label{
+    padding: .2rem;
+}
+
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
@@ -31,14 +42,18 @@ body {
     padding: 1rem;
 }
 .logo img{
-    min-width: 25rem;
+    width: 30%;
+    min-width: 20rem;
     height: auto;
     padding: 1rem;
 }
 .form{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
 }
 .form label{
     font-size: 1.8rem;
