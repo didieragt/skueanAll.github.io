@@ -8,7 +8,7 @@ let arrNoencontrado = [];
 
 async function data(sku) {
     try {
-        const response = await fetch('./json/all_Master.json');
+        const response = await fetch('./json/all_Master_completo.json');
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
